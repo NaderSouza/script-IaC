@@ -40,7 +40,7 @@ e colocar no GitHub secrets
 
 9. Copiar todo codigo que esta nos arquivos **compute** e **rede** (esta como network o dele) 
 
-![secrets](/images/ian.png)
+![ian](/images/ian.png)
 
 10. Criar na AWS o **S3** e **DynamoDB**  coloque um nome que seja facil para reconhecer
 
