@@ -23,7 +23,7 @@ git checkout - b develop
 04. Entrar na **AWS** e dar start o **LAB** e pegar as credencias
 e colocar no GitHub secrets 
 
-![secrets](/images/secrets.png)
+![secrets](/images/secret.png)
 
 
 5. Ajustar o código do Terraform para uma estrutura em módulos, contendo dois módulos (rede e compute).
