@@ -26,15 +26,13 @@ e colocar no GitHub secrets
 ![secrets](/images/secrets.png)
 
 
+5. Ajustar o código do Terraform para uma estrutura em módulos, contendo dois módulos (rede e compute).
 
 
+6. Crias a pasta modules com as pastas **rede** e **compute**
 
+7. Criar os arquivos de acordo com a imagem abaixo: 
 
-
-
-
-
-
-
+![secrets](/images/modulos.png)
 
 
