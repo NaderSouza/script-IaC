@@ -36,4 +36,35 @@ e colocar no GitHub secrets
 ![secrets](/images/modulos.png)
 
 
+8. Entrar no repo do [Ian Soares](https://github.com/Ian-Soares/app-static-site-ec2/tree/develop/terraform/modules) 
+
+9. Copiar todo codigo que esta nos arquivos **compute** e **rede** (esta como network) dele
+
+
+10. Criar agora na pasta **terraform** o **provider.tf**
+
+<br>
+
+```
+# PROVIDER
+terraform {
+
+  required_version = "~> 1.5.6"
+
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.13"
+    }
+  }
+
+    backend "s3" {
+      bucket         = "app-static-site-ec2-tf-nadin"
+      key            = "terraform.tfstate"
+      dynamodb_table = "app-static-site-ec2-tf-nadin"
+      region         = "us-east-1"
+    }
+
+}
+```
 
