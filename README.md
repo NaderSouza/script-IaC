@@ -1,8 +1,8 @@
 # Script passo a passo dos Checkpoints IaC
-Ajuda para fazer os checkpoints do Kledson
-<br>
 
-## Checkpoint 04 
+
+
+### Checkpoint 04 - 2º Semestre
 
 ### Passo-a-passo
 
@@ -36,12 +36,13 @@ e colocar no GitHub secrets
 ![secrets](/images/modulos.png)
 
 
-8. Entrar no repo do [Ian Soares](https://github.com/Ian-Soares/app-static-site-ec2/tree/develop/terraform/modules) 
+8. Entrar no repo do [Ian Soares](https://github.com/Ian-Soares/app-static-site-ec2/tree/develop/terraform/modules) como referência
 
-9. Copiar todo codigo que esta nos arquivos **compute** e **rede** (esta como network) dele
+9. Copiar todo codigo que esta nos arquivos **compute** e **rede** (esta como network o dele) 
+
+![secrets](/images/ian.png)
 
 10. Criar na AWS o **S3** e **DynamoDB**  coloque um nome que seja facil para reconhecer
-
 
 
 11. Criar agora na pasta **terraform** o **provider.tf** com esses códigos
@@ -71,7 +72,7 @@ terraform {
 }
 ```
 
-12. Criar agora na pasta **terraform** o **orch.tf** com esses códigos
+12. Criar agora na pasta **terraform** o **orch.tf** com esses códigos:
 
 ```
 module "rede" {
@@ -162,4 +163,15 @@ jobs:
       
       
 ```
+15. Fazer o comandos para subir o repositório
 
+```
+git add .
+```
+```
+git commit -m "cp-1"
+```
+```
+git push origin develop
+```
+> **Note**: Se não aparecer o **Actions**, suba mais um **commit** - exemplo: dar algum espaçamento em algum arquivo e salvar 
