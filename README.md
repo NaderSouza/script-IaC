@@ -67,4 +67,8 @@ terraform {
 
 }
 ```
+11. Criar o pipeline - Crie uma pasta **.github/workflows** e dentro dela crie o arquivo **pipe.yaml**
+
+![pipe](/images/pipe.png)
+
 
