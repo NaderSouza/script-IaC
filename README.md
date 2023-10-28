@@ -92,7 +92,7 @@ module "compute" {
 ```
 
 
-> **Note**: Não esqueca de trocar a AMI do **vars.tf** para a mesma do **orch.tf**
+> **Note**: Não esqueça de trocar a AMI do **vars.tf** para a mesma do **orch.tf**
 
 
 
