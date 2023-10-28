@@ -42,7 +42,7 @@ e colocar no GitHub secrets
 
 ![ian](/images/ian2.png)
 
-10. Criar na AWS o **S3** e **DynamoDB**  coloque um nome que seja facil para reconhecer
+10. Criar na AWS o **S3** e **DynamoDB**  coloque um nome que seja fácil para reconhecer
 
 
 11. Criar agora na pasta **terraform** o **provider.tf** com esses códigos
