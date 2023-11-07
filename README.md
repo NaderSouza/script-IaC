@@ -17,11 +17,11 @@ git clone https://github.com/NaderSouza/app-static-site-ec2-teste.git
 03. Crie a **Branch** develop
 
 ```
-git checkout - b develop 
+git checkout -b develop 
 ```
 
 04. Entrar na **AWS** e dar start o **LAB** e pegar as credencias
-e colocar no GitHub secrets 
+e colocar no GitHub secrets e autorizar o workflows no Actions
 
 ![secrets](/images/secret.png)
 
